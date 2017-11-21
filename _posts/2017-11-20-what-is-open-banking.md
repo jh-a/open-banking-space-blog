@@ -3,7 +3,6 @@ layout: post
 title: What is Open Banking?
 author: jha
 description: A short introduction to the concept of Open Banking.
-image: assets/images/pic01.jpg
 ---
 
 *TL;DR:* – open banking is a new concept in digital banking, which provides for the use of interfaces (and applications) built by third parties accessing banks’ systems. The significance of this change means that, with customers’ permission, access to their accounts, whether for the purposes of pulling information or initiating payments, is now a possibility for third parties. This opens a potentially limitless number of new use cases to the digital ecosystem, which previously weren’t possible due to the very tight control banks exercised over customer accounts.

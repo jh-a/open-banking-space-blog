@@ -3,9 +3,6 @@ title: Open Banking
 subtitle: Space
 email: youremailaddress@gmail.com
 description: 
-baseurl: /
-url: "" # the base hostname & protocol for your site
-author:
 street_address: 1234 Somewhere Road
 city: Nashville
 state: TN
