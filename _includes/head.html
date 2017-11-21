@@ -7,6 +7,19 @@
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
   <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  {% if post %}
+  <!-- opengraph -->
+  <meta property="og:url" content="http://{{ post.url | prepend: site.domain }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="{% if post.title %}{{ post.title }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta property="og:description" content="{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}"/>
+  {% if post.image %}
+  <meta property="og:image" content="http://{{ post.image | prepend: site.domain }}"/>
+  {% endif %}
+  <!-- opengraph -->
+  {% endif %}
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46090922-7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
