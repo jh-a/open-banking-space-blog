@@ -8,6 +8,7 @@ city: Nashville
 state: TN
 zip_code: 55555
 country: United States of America
+domain: blog.openbanking.space
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
